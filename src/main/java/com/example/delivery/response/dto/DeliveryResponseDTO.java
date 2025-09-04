@@ -1,10 +1,11 @@
-package com.example.delivery.model;
+package com.example.delivery.response.dto;
 
-import com.example.delivery.dto.ProductEvent; // Import the DTO
 import java.time.LocalDate;
 import java.util.List;
 
-public class Delivery {
+import com.example.delivery.dto.ProductEvent;
+
+public class DeliveryResponseDTO {
     private String id;
     public void setId(String id) {
 		this.id = id;
